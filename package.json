@@ -1,9 +1,14 @@
 {
-	"name" : "dabin-xm",
+	"name" : "jdcsh",
 	"version" : "1.0.0",
-	"description" : "",
+	"keywords" : ["gulp"],
+	"description" : "simple task",
 	"main" : "gulpfile.js",
 	"author" : "dabin",
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/dabin7360/jdcm.git"
+	},
 	"dependencies" : {
 		"gulp" : "^3.9.0",
 		"browser-sync" : "^2.9.1",

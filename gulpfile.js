@@ -1,3 +1,12 @@
+/**
+description : simple task for jdc
+autor : dabin
+date : 2016.2.2
+
+命令：
+gulp : 启动本地服务器，监控文件改动，事实映射到页面,sass编译
+gulp imagemin : 压缩图片
+**/
 var gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	imagemin = require('gulp-imagemin'),
@@ -41,5 +50,5 @@ gulp.task('imagemin',function(){
 })
 
 gulp.task('default',['browser-sync','sass','sass:watch'],function(){
-	console.log('my name is dabin!');
+	console.log('hello jdc!');
 })
