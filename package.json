@@ -1,20 +1,25 @@
 {
-	"name" : "jdcsh",
-	"version" : "1.0.0",
-	"keywords" : ["gulp"],
-	"description" : "simple task",
-	"main" : "gulpfile.js",
-	"author" : "dabin",
-	"repository" : {
-		"type" : "git",
-		"url" : "https://github.com/dabin7360/jdcm.git"
-	},
-	"dependencies" : {
-		"gulp" : "^3.9.0",
-		"browser-sync" : "^2.9.1",
-		"gulp-sass" : "^2.0.4",
-		"node-bourbon" : "^4.2.3",
-		"gulp-imagemin" : "^2.3.0",
-		"imagemin-pngquant" : "^4.2.0"
-	}
+  "name": "jdcsh",
+  "version": "1.0.0",
+  "keywords": [
+    "gulp"
+  ],
+  "description": "simple task",
+  "main": "gulpfile.js",
+  "author": "dabin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dabin7360/jdcm.git"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "browser-sync": "^2.9.1",
+    "gulp-sass": "^2.0.4",
+    "node-bourbon": "^4.2.3",
+    "gulp-imagemin": "^2.3.0",
+    "imagemin-pngquant": "^4.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
